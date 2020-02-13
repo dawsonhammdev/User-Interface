@@ -75,13 +75,23 @@ body{
 nav{
 	padding: 20px;
 	display: inline;
+	overflow: hidden;
+  	background-color: #333;
+  	position: fixed; 
+	top: 0;
+	width: 100%;
+	margin-left: -85px; 
 }
 
 nav a{
 	text-decoration: none;
 	padding: 32px;
-	color: grey;
+	color: white;
 	width: 50%;;
+}
+
+.links {
+	padding-top: 20px;
 }
 
 nav a:hover{
@@ -94,6 +104,10 @@ nav a:hover{
 	display: inline-block;
 	width: 46%;
 	margin-top: -17px;
+}
+
+.logo img{
+	margin-top: -15px;
 }
 
 /*styling of hero section*/
