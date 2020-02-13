@@ -50,6 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box; 
+
 	
 }
 
@@ -83,6 +84,11 @@ nav a{
 	width: 50%;;
 }
 
+nav a:hover{
+	font-weight: bolder;
+	color: black;
+}
+
 .logo{
 	float: right;
 	display: inline-block;
@@ -103,8 +109,6 @@ nav a{
 	width: 60%;
 	margin-bottom: 160px;
 }
-
-
 
 .container{
 	width: 100%;
@@ -133,4 +137,111 @@ button{
 	background: none;
 	border: solid black 1px;
 	padding: 5px 33px;
+}
+
+button:hover{
+	background-color: black;
+	color: white;
+}
+
+hr{
+	border: 1px black solid;
+}
+
+/*features and about section styles*/
+
+#features-about{
+	display: inline-block;
+	width: 100%;
+	margin: 30px 0;
+}
+
+.text-about{
+	display: inline-block;
+	width: 45%;
+	margin-left: 96px;
+	padding-left: 35px;
+}
+
+.text-about h4{
+	font-size: 20px;
+}
+
+.text-features{
+	display: inline-block;
+	width: 45%;
+}
+
+.text-features h4{
+	font-size: 20px;
+}
+
+/*image sytling*/
+
+.middle-img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/*style services,product, vision section*/
+
+#services-vision{
+	margin-bottom: 50px;
+}
+
+.services{
+	display: inline-block;
+	width: 30%;
+
+}
+
+.product{
+	display: inline-block;
+	width: 30%;
+	margin-left: 45px;
+}
+
+.vision{
+	display: inline-block;
+	width: 30%;
+	margin-left: 45px;
+}
+
+#services-vision h4{
+	font-size: 20px;
+}
+
+/*footer syling*/
+
+footer h4{
+	font-size: 20px;
+}
+
+footer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+footer p{
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer address{
+	margin-bottom: 10px;
+}
+
+#footer a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 0;
+	display: block;
+}
+
+#footer a:hover{
+	font-weight: bolder;
 }
