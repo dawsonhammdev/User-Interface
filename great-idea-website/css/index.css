@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box; 
-	border: 1px solid grey;
+	
 }
 
 html, body {
@@ -78,7 +78,7 @@ nav{
 
 nav a{
 	text-decoration: none;
-	padding: 19px;
+	padding: 32px;
 	color: grey;
 	width: 50%;;
 }
@@ -86,7 +86,51 @@ nav a{
 .logo{
 	float: right;
 	display: inline-block;
-	width: 48%;
-	margin-top: -13px;
+	width: 46%;
+	margin-top: -17px;
 }
 
+/*styling of hero section*/
+
+#hero {
+	width: 39%;
+	display: inline-block;
+	margin-top: 120px;
+}
+
+#hero-text{
+	display: inline-block;
+	width: 60%;
+	margin-bottom: 160px;
+}
+
+
+
+.container{
+	width: 100%;
+}
+
+.hero-text{
+	text-align: center;
+	font-size: 85px;
+}
+
+#hero img{
+	width: 390px;
+	float: right;
+	margin-right: 30px;
+}
+
+/*button styles*/
+
+#button{
+	width: 100%;
+	text-align: center;
+}
+
+button{
+	font-size: 20px;
+	background: none;
+	border: solid black 1px;
+	padding: 5px 33px;
+}
